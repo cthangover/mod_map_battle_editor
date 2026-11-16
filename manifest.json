@@ -1,0 +1,27 @@
+{
+  "id": "map_battle_editor",
+  "name": "Map Battle Editor",
+  "version": "0.1.0",
+  "author": "ct",
+  "description": "Authors turn-based 2D encounters with participants, map placement and isolated play tests.",
+  "categories": [
+    "tools",
+    "editor"
+  ],
+  "depends": [
+    "map_battle>=0.1.0",
+    "tools_base>=0.1.0",
+    "rpg_editor>=0.1.0"
+  ],
+  "sources": [
+    "src/**/*.cs"
+  ],
+  "test_suites": [
+    {
+      "id": "gui",
+      "activate": [
+        "--itest=editor_map_encounters"
+      ]
+    }
+  ]
+}

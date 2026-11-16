@@ -1,0 +1,11 @@
+{
+  "name": "Map battle editor GUI contracts",
+  "depends": [
+    "rpg_plus_game>=0.1.0",
+    "tile_topdown_base>=0.1.0",
+    "tile_isometric_base>=0.1.0"
+  ],
+  "sources": [
+    "src/**/*.cs"
+  ]
+}
